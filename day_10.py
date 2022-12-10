@@ -31,7 +31,6 @@ def cyc_to_coord(cyc):
 
 
 def sprite_coords(val, row):
-    col = val % 40
     return tuple([row, val - 1]), tuple([row, val]), tuple([row, val + 1])
 
 
